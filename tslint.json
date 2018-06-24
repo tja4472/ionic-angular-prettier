@@ -1,0 +1,13 @@
+{
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
+  "extends": [
+    "tslint:latest",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    // codelyzer
+    "component-selector": [true, "element", "tja", "kebab-case"]
+  }
+}
