@@ -8,7 +8,7 @@
     "start": "ionic serve",
     "build": "ionic build",
     "test": "ng test",
-    "lint": "ng lint",
+    "lint": "ng lint || ECHO .",
     "e2e": "ng e2e",
     "prettier:list": "prettier --list-different \"./{e2e,src}/**/*.{scss,ts}\" || ECHO .",
     "prettier:write": "prettier --write \"./{e2e,src}/**/*.{scss,ts}\"",
